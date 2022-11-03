@@ -1,0 +1,98 @@
+body {
+    background-color: rgb(230, 245, 245);
+    color: rgb(100, 100, 100);
+    font-size: 18px;
+    font-weight: 180;
+    font-family: 'Gill Sans', 'Gill Sans MT', 'Trebuchet MS', sans-serif;
+}
+
+h1, h2 {
+    font-family: 'Montserrat', sans-serif;
+}
+
+h1 {
+    color: rgb(73, 64, 118);
+    font-size: 40px;
+    font-weight: 700;
+    letter-spacing: 1px;
+}
+
+h2 {
+    color: rgb(46, 76, 118);
+    font-size: 25px;
+    font-weight: 600;
+}
+
+a {
+    text-decoration: none;
+    color: rgb(142, 121, 67);
+    font-size: 20px;
+    transition: color 0.3s ease;
+    font-weight: 500;
+}
+a:hover {
+    color: rgb(70, 70, 70);
+}
+
+.container {
+    width: auto;
+    margin: auto;
+}
+
+.card-pink {
+    background-color: rgb(250, 245, 245);
+    padding: 18px 30px;
+    width: 600px;
+    margin: 25px auto;
+    box-shadow: 10px 10px 20px rgba(0, 0, 0, 0.1);
+    text-align: center;
+    border-radius: 6px;
+}
+
+.image-circle {
+    width: 140px;
+    border-radius: 50%;
+}
+
+.image-square {
+    width: 340px;
+    height: 200px;
+    border: 3px dashed rgb(143, 44, 44);
+    border-radius: 2px;
+}
+
+.button-brown {
+    background-color: rgba(222, 160, 97, 0.6);
+    padding: 10px 20px;
+    border-radius: 2px;
+}
+
+.list {
+    list-style: none;
+    padding-left: 0px;
+}
+
+#introduction p {
+    margin-bottom: 25px;
+}
+
+@media (max-width: 800px) {
+    .card-pink {
+      width: 500px;
+    }
+}
+@media (max-width: 700px) {
+    .card-pink {
+      width: 450px;
+    }
+}
+@media (max-width: 600px) {
+    .card-pink {
+      width: 400px;
+    }
+}
+@media (max-width: 500px) {
+    .card-pink {
+      width: 350px;
+    }
+}
